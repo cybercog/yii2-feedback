@@ -1,0 +1,103 @@
+.feedback-block {
+    width: 216px;
+    
+    font-size:14px;
+    position: relative;
+    padding:5px 15px;
+    background: #ffffff;
+    border-radius:3px 3px 0 0;
+}
+
+.feedback-block .collapse-arrow {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.feedback-block p{
+    color:#999999;
+    line-height:18px;
+}
+
+.collapse-arrow{
+    width:13px;
+    height:7px;
+    background: url('icon-arrow-feedback-drawer.png');
+    background-size: 13px 7px;
+    display:block;
+}
+
+.feedback-block div {
+    margin: 10px 0px;
+}
+
+.feedback-block div.title, .feedback-block div.button {
+    color: #0f208b!important;
+}
+
+.feedback-block div.button {
+    cursor: pointer;
+}
+
+.collapsable {
+    /*display: none;*/
+}
+
+.feedback-modal {
+    width: 725px;
+    padding: 35px;
+    background: #ffffff;
+    display: none;
+    border-radius:10px;
+}
+
+.feedback-modal .btn{
+    margin:30px auto 0;
+}
+
+.feedback-modal .split{
+    width:49%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.split.pad-right    {padding:0 10px 0 0;}
+.split.pad-left     {padding:0 0 0 10px;}
+
+.feedback-modal .split:nth-child(2){
+    margin-right:0;
+}
+
+.modal-content p, label, input{color:#666;}
+
+.modal-content p{
+    margin:0 0 10px 0;
+    line-height:21px;
+}
+
+.modal-content label{
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.feedback-modal input[type=text]{
+    background-color: rgb(245, 245, 245);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    border:0;
+    border-radius:0;
+    height:130px;
+}
+.feedback-modal .close{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+
+
+.feedback-modal .modal-header{
+    font-size:27px;
+    color:#0f208b;
+    margin:0 0 20px 0;
+}

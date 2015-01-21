@@ -1,0 +1,20 @@
+{
+    "name": "branchonline/yii2-feedback",
+    "description": "Feedback widget for Yii2",
+    "authors": [
+        {
+            "name": "Jap Mul",
+            "email": "jap@branchonline.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": { 
+            "branchonline\\": "" 
+        }
+    }
+}
